@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <body>
-        <h1>Why Kanye is better than Drake</h1>
+        <h1>Why Taylor swift is better than Drake</h1>
         <img src="2000.webp" alt="blank" width={500} height={300}></img>
       </body>
     )
