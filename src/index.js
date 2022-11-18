@@ -7,7 +7,10 @@ class App extends Component {
     return (
       <body>
         <h1>Why Taylor swift is better than Drake</h1>
-        <img src="2000.webp" alt="blank" width={500} height={300}></img>
+        <div class=""></div>
+        <img src="kanye.webp" alt="blank" width={500} height={300}></img>
+        <h1>Vs.</h1>
+        <img src='drake.jpeg' alt='blank'></img>
       </body>
     )
   }
