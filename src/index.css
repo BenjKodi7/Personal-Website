@@ -1,3 +1,39 @@
-.App{
-  color: red;
+body{
+  display: inline-block;
+  float: left;
+  clear: left;
+}
+
+.Title{
+  display: flex;
+  flex-direction: row;
+  align-items: centre;
+  
+}
+/*body{
+  background-image: url("https://i.pinimg.com/originals/4f/d1/91/4fd191e26773d527c6b07f0e888c4488.jpg");
+}*/
+
+.links{
+  display: flex;
+  list-style: none;
+}
+#one {
+  position: relative;
+  left:25%;
+}
+
+#two {
+  position: relative;
+  left:50%;
+}
+
+#three {
+  position: relative;
+  left:75%;
+}
+
+#four {
+  position: relative;
+  left:100%;
 }
