@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom/client'
 import LandingPage from './LandingPage'
 import Versatility from './versatility';
+import Discography from './Discography';
+import Talent from './Talent';
+
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Impact from "./Impact"
 import './index.css'
@@ -16,6 +20,9 @@ class App extends Component {
         <Route path="/" element={<LandingPage />}/>
         <Route path="/impact" element={<Impact />} />
         <Route path="/versatility" element={<Versatility />}/>
+        <Route path="/Discography" element={<Discography />}/>
+        <Route path="/Talent" element={<Talent />}/>
+
       </Routes>
       </BrowserRouter>
       

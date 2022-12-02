@@ -1,0 +1,17 @@
+img{
+    height:200px;
+    width:200px;
+}
+h1#disc{
+    font-style: oblique;
+    text-decoration: underline;
+}
+.argue{
+    border: dashed 10px;
+    width: 35%;
+margin-inline: auto;
+}
+a#home{
+    border: solid ;
+    padding: 3px;
+}
